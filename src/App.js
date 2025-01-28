@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Task_a from "./Task-a/Task_a";
+import Task_b from "./Task-b/Task_b";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Task_a />
+
+
+
+      <Task_b
+        name="Jaydeep"
+        imgsrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZ2mAbA5Xih1iadsraVkyI_nL591zpeO9Mg&s"
+        bio="This is the bio of user 1"
+      />
+
+    
+    </>
   );
 }
 

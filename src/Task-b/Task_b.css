@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.b-h1{
+    text-align: center;
+    width: 100vw;
+}
+.userProfile{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(85, 85, 85);
+    width: fit-content;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    /* list-style-type: none; */
+    text-transform: capitalize;
+    text-align: center;
+}
+img{
+    margin: 2px 2px;
+}
+.userName{
+    background-color: rgb(67, 67, 67);
+    color: white;
+    padding: 10px;
+}
+.userBio{
+    background-color: rgb(67, 67, 67);
+    color: white;
+    padding: 10px;
+}
