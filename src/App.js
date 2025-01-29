@@ -1,6 +1,7 @@
 import Task_a from "./Task-a/Task_a";
 import Task_b from "./Task-b/Task_b";
 import Task_d from "./Task_d/Task_d";
+import Task_e from "./Task_e/Task_e";
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
         bio="This is the bio of user 1"
       /> */}
 
-<Task_d/>
+{/* <Task_d/> */}
+<Task_e/>
+
     
     </>
   );
