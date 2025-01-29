@@ -2,6 +2,7 @@ import Task_a from "./Task-a/Task_a";
 import Task_b from "./Task-b/Task_b";
 import Task_d from "./Task_d/Task_d";
 import Task_e from "./Task_e/Task_e";
+import Task_f from "./Task_f/Task_f";
 
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
       /> */}
 
 {/* <Task_d/> */}
-<Task_e/>
-
+{/* <Task_e/> */}
+<Task_f/>
     
     </>
   );
