@@ -3,24 +3,39 @@ import { useState } from 'react';
 
 export default function Task_f() {
 
-    const [username , setUsername] = useState("jaydeep");
-    const [email , setEmail] = useState("jaydeep123@gmail.com");
-    const [password , setPassword] = useState(123);
+    const [username, setUsername] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
-const handleFormUsername = (e) => {
-    setUsername(e.target.value);
-}
-const handleFormEmail = (e) => {
-    setEmail(e.target.value);
-}
-const handleFormPassword = (e) => {
-    setEmail(e.target.value);
-}
+    const handleFormUsername = (e) => {
+        
+        setUsername(e.target.value);
+
+    }
+
+
+
+    const handleFormEmail = (e) => {
+        setEmail(e.target.value);
+    }
+    const handleFormPassword = (e) => {
+        setPassword(e.target.value);
+    }
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+      
+
+        console.log(username);
+        console.log(email);
+        console.log(password);
+        
+
+    }
 
 
     return (
         <>
-            <form>
+            <form onSubmit={handleFormSubmit}>
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">User Name</label>
                     <input
@@ -50,7 +65,7 @@ const handleFormPassword = (e) => {
                     />
                 </div>
 
-                <button type="submit" className="btn btn-primary mt-2">
+                <button type="submit" className="btn btn-primary mt-2" >
                     Submit
                 </button>
             </form>
