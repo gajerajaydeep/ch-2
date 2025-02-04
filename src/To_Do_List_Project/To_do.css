@@ -1,7 +1,13 @@
 form {
-    /* border: 1px solid black; */
-    width: 500px;
 
+    /* width: 1000px; */
+
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .to-do-h1 {
@@ -13,7 +19,6 @@ form {
     display: flex;
     margin: auto;
     gap: 20px;
-
 
 }
 
@@ -66,9 +71,15 @@ input[type="text"] {
     width: 30px;
 
 }
-.task-List ul li input[type="checkbox"]{
+
+.task-List ul li input[type="checkbox"] {
     position: absolute;
     right: 40px;
     top: 13px;
-   
+
+}
+.completetodo{
+
+    background-color: green;
+    color: white;
 }
